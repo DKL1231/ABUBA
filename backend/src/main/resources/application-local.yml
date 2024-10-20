@@ -1,15 +1,11 @@
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/abuba
-    username: abuba
-    password: abuba
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   mail:
     host: smtp.gmail.com
     port: 587
-    username: 106hexagon@gmail.com
-    password: wuya kvvf iebm ouko
     properties:
       mail.smtp.auth: true
       mail.smtp.starttls.enable: true
